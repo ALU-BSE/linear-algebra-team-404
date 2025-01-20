@@ -2,7 +2,8 @@ import pandas as pd
 import numpy as np
 
 # Load data
-data = pd.read_csv('path/to/data')
+# created a sample data to test pandas
+data  = pd.read_csv('Data.csv')
 
 # Example arrays
 Prices = [[300, 500],
@@ -17,8 +18,9 @@ Ans = []
 for i in range(len(Prices)):
     row_sum = 0
     for j in range(len(Prices[0])):
-        # COMPLETE THE MISSING LOGIC HERE
-        pass
+         row_sum += Prices[i][j] * Array2[j]
+         Ans.append(row_sum)
+        #pass
 
 
 print(Ans)
