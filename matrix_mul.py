@@ -28,3 +28,9 @@ for i in range(len(Prices)):
 
 
 print(Ans)
+
+# Participants
+#Akoto-Nimoh Christine Serwaa
+#John Ongeri Ouma
+
+#github repo : https://github.com/ALU-BSE/linear-algebra-team-404.git
