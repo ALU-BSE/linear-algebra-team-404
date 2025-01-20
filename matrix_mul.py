@@ -21,9 +21,9 @@ for i in range(len(Prices)):
     row_sum = 0
     # Iterate over each column in the current row
     for j in range(len(Prices[0])):
-         # Multiply the current element in the row with the corresponding element in Array2 and add to the row sum
+         # Multiplying the current element in the row with the corresponding element in Array2 and add to the row sum
          row_sum += Prices[i][j] * Array2[j]
-    
+    # Append the row sum (dot product) to the Ans list
     Ans.append(row_sum)
 
 
