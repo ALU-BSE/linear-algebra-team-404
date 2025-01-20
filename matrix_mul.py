@@ -15,12 +15,16 @@ Array2 = [200, 100]
 Ans = []
 # (300*200 + 500*100) as an example calculation
 
+# Iterate over each row in the Prices matrix
 for i in range(len(Prices)):
+    # Initialize the sum for the current row
     row_sum = 0
+    # Iterate over each column in the current row
     for j in range(len(Prices[0])):
+         # Multiply the current element in the row with the corresponding element in Array2 and add to the row sum
          row_sum += Prices[i][j] * Array2[j]
-         Ans.append(row_sum)
-        #pass
+    
+    Ans.append(row_sum)
 
 
 print(Ans)
